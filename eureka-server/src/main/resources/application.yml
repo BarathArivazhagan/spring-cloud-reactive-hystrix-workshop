@@ -1,6 +1,9 @@
 spring:
   application:
     name: eureka-server
+  zipkin:
+    enabled: true
+    base-url: http://localhost:9506
 server:
   port: 9500
 eureka:
@@ -9,4 +12,3 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-

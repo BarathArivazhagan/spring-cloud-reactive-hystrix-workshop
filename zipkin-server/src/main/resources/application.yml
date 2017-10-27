@@ -3,10 +3,3 @@ spring:
     name: zipkin-ui-server
 server:
   port: 9506
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:9500/eureka
-    register-with-eureka: true
-    fetch-registry: true

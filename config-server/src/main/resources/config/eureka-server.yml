@@ -1,0 +1,5 @@
+eureka:
+  service:
+      host: localhost
+      port: 8760
+      

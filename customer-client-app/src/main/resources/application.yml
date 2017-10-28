@@ -6,11 +6,11 @@ spring:
       base-url: http://localhost:9506
 server:
   port: 9502
+
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:9500/eureka
+      defaultZone: http://${eureka.service.host:localhost}:${eureka.service.port:9500}/eureka
     register-with-eureka: true
     fetch-registry: true
-
 

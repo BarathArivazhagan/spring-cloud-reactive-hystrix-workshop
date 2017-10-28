@@ -7,7 +7,7 @@ spring:
       base-url: http://localhost:9506
 server:
   port: 9505
-eureka:
+eureka:`
   client:
     serviceUrl:
       defaultZone: http://localhost:9500/eureka
